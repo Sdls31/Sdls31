@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 2 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .video-container {
+                display: flex;
+                justify-content: space-between;
+            }
+    
+            .video {
+                width: 45%; /* Ajusta el ancho de cada video según tus necesidades */
+                margin: 5px;
+            }
+
+            .imagen-container {
+                display: inline-block;
+                width: 48%; /* Ajusta el ancho según tus necesidades */
+                margin-right: 2%; /* Espacio entre las imágenes */
+                border: 2px;
+                border-color: black;
+                border-width: 2px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Lab. Elementos programables</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Curso básico de Arduino II</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Huber.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">José Sebastián De los Santos Hernández</div>
+                                <div class="text-muted">Ing. Sistemas computacionales</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 30, 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/web.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">La práctica consistió en desarrollar 8 prácticas del curso de arduino basico II. Estas consisten en utilizar servomotores, programados con la ayuda de la placa de arduino UNO. Además del uso de potenciometro para una manipulación más manual.</p>
+                        <p class="fs-6 mb-4">Con ayuda del lenguaje C++. Qué es un lenguaje estructurado lo cual nos ayuda para una facil programación.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Durante esta práctica se utilizó la placa Arduino UNO. Recordar que Arduino UNO es una plataforma para facil y rapido prototipado, además de que su función principal es la creación de electrónica de manera open source. Durante la práctica se veran en función estos elementos y se dará a entender el porque resulta tan sencillo Arduino UNO. Pues con unos cuantos cables, servos y potenciometros podemos hacer grandes cosas.</p>
+                        <p class="fs-6 mb-4">Durante el proceso de conectar las cosas se tiene que ser preciso, pues en muchas ocasiones podemos llegar a quemar componentes o solamente no llegar a un buen resultado. </p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Utilizamos menos anteriores a la práctica anterior, aunque es importante decir que muchos de estos no los habia utilizado en algun prototipo.</p>
+                        <ul>
+                            <li>Servomotores</li>
+                            <li>Jumper Macho-Macho</li>
+                            <li>Potenciometros</li>
+                            <li>Resistencias de 220Ω</li>
+                            <li>Resistencias de 10kΩ</li>
+                            <li>Botones de 2 pines</li>
+                            <li>Jumpers Macho-Macho</li>
+                            <li>Placa Arduino UNO</li>
+                            <li>Fuente de Poder</li>
+                        </ul>
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Fueron en total 8 prácticas, que consistian en hacer uso de los servomotores. En la práctica 1, se conectó solo un servo a la protoboard para hacer nuestra primera prueba que consistía en desplazar el motor en distinto grados. La práctica 2, mantenia el mismo circuito que la anterior solo que esta vez moveria el servo en sentido horario y antihorario con ayuda "for's" en el cödigo. En la práctica 3 utilizariamos un potenciometro pero, por el momento solo se usaria para imprimir en el monitor serial el valor que arroja el potenciometro. Continuando con la práctica 4, consistía en utilizar 2 servomotores conectados a UNO junto con un potenciometro, que nos ayudaria a mover los dos servos según la posición o la potencia que este arrojara.</p>
+                        <p class="fs-6 mb-4">Con la práctica 5, mantendriamos el mismo circuito pero esta vez el código se encargaria de girar un servo en sentido horario y el otro en sentido antihorario. Para la práctica 6, se agregó otro potenciometro y se asignaria uno para cada potenciometro, por tal funcionarian por separado. La práctica 7, se encargaria se utilizar el mismo circuito anterior y agregaria 2 leds para indicar cuando el potenciometro estuviera en una potencia muy baja con el led verde y en una potencia alta con el led rojo. Por ultimo, tendriamos la práctica 8, en la cual solo usariamos un servomotor con un potenciometro y la fuente de poder para darle voltaje al servomotor.</p>
+                        
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">A continuación se mostrarán las simulaciones de las prácticas.</p>
+                            <div class="video-container">
+                                <video class="video" controls>
+                                    <source src="./img/sim_1.mp4" type="video/mp4">
+                                </video>
+                                <video class="video" controls>
+                                    <source src="./img/sim_2.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="video-container">
+                                <video class="video" controls>
+                                    <source src="./img/sim_3.mp4" type="video/mp4">
+                                </video>
+                                <video class="video" controls>
+                                    <source src="./img/sim_4.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="video-container">
+                                <video class="video" controls>
+                                    <source src="./img/sim_5.mp4" type="video/mp4">
+                                </video>
+                                <video class="video" controls>
+                                    <source src="./img/sim_6.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="video-container">
+                                <video class="video" controls>
+                                    <source src="./img/sim_7.mp4" type="video/mp4">
+                                </video>
+                                <video class="video" controls>
+                                    <source src="./img/sim_8.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                    
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Se mostrarán los códigos realizados para la práctica, utilizando como C como lenguaje y usando librerias que nos permiten controlar nuestra placa Arduino UNO.</p>
+                            <table>
+                                <div class="imagen-container">
+                                    <img src="./img/img_1.png" alt="Imagen 1">
+                                </div>
+                                <div class="imagen-container">
+                                    <img src="./img/img_2.png" alt="Imagen 2">
+                                </div>
+                                <tr>
+                                    <td>
+                                        <img src="./img/img_3.png" alt="Imagen 3">
+                                    </td>
+                                    <td>
+                                        <img src="./img/img_4.png" alt="Imagen 4">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="./img/img_5.png" alt="Imagen 5">
+                                    </td>
+                                    <td>
+                                        <img src="./img/img_6.png" alt="Imagen 6">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="./img/img_7.png" alt="Imagen 7">
+                                    </td>
+                                    <td>
+                                        <img src="./img/img_8.png" alt="Imagen 8">
+                                    </td>
+                                </tr>
+                            </table>
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Se tuvieron buenos resultados, se logró armar cada uno de los circuitos de manera fisica. Enseguida se muestran videos de los armados.</p>
+                        <div class="video-container">
+                            <video class="video" controls>
+                                <source src="./video/video_1.mp4" type="video/mp4">
+                            </video>
+                            <video class="video" controls>
+                                <source src="./video/video_2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-container">
+                            <video class="video" controls>
+                                <source src="./video/video_3.mp4" type="video/mp4">
+                            </video>
+                            <video class="video" controls>
+                                <source src="./video/video_4.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-container">
+                            <video class="video" controls>
+                                <source src="./video/video_5.mp4" type="video/mp4">
+                            </video>
+                            <video class="video" controls>
+                                <source src="./video/video_6.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-container">
+                            <video class="video" controls>
+                                <source src="./video/video_7.mp4" type="video/mp4">
+                            </video>
+                            <video class="video" controls>
+                                <source src="./video/video_8.mp4" type="video/mp4">
+                            </video>
+                        </div>
+
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">En conclusión, podemos rescatar que arduino UNO puede ser una buena herramienta, por que supone un avance facil y continuo a la hora de aprender, hablamos de una herramienta con la que se puede manipular muchas cosas gracias al microcontrolador ATMEGA328P que viene en el.</p>
+                        <p class="fs-6 mb-4">Sin duda es una placa que puede ayudarnos a empezar en el mundo de la electrónica y aprender a hacer conexiones en una protoboard.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
+                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
+                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar documento PDF: <a href="files/Documento.pdf">documento.pdf</a> </p>
+                        <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/Ejemplo_arduino_bluetooth.ino">codigo.ino</a> </p>
+                        <p class="fs-6 mb-4">Descargar Archivo 3d .STL: <a href="files/Pieza_3D.STL">pieza.stl</a> </p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
