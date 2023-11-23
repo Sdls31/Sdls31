@@ -1,9 +1,3 @@
-- 👋 Hi, I’m @Sdls31
-- 👀 I’m interested in Learn.
-- 🌱 I’m currently learning React, Python, C++
-- 📫 How to reach me by email "slds31@gmail.com"
+Hello! I'm Sebastián De los Santos, an avid developer with a passion for programming. My coding journey is defined by my love for Python and C++, where I delve into the intricacies of code and logic. I extend this fascination to full-stack web development, where I blend creativity with technical skills to craft interactive and efficient experiences.
 
-<!---
-Sdls31/Sdls31 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+While I consider myself a perpetual learner, always seeking to enhance my skills, I am thrilled at the opportunity to contribute and grow in the realm of software development. My approach is underpinned by a humble and responsible mindset, recognizing that learning is a continuous journey. I am eager to tackle new challenges, collaborate with talented teams, and advance in my professional career. Ready to dive into the code and build a bright future! 🚀
