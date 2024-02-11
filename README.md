@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning Data Science and Backend development **⚛️ React, 🐍 Python, 📊 SQL, C**
 
-- 📫 How to reach me by email: sdlsh31@gmail.com **sdlsh31@gmail.com**
+- 📫 How to reach me by email: **sdlsh31@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
