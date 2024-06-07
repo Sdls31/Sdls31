@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sebastian De los Santos</h1>
 <h3 align="center">A passionate frontend developer from México</h3>
 
-- 🔭 I’m currently working on my skills [React-Pokedex](https://github.com/Sdls31/Pokedex-React)
+- 🔭 I’m currently working on my skills 
 
 - 🌱 I’m currently learning Data Science and Backend development **⚛️ React, 🐍 Python, 📊 SQL, C**
 
