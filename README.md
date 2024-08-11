@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on my skills 
 
-- 🌱 I’m currently learning Data Science and Backend development **⚛️ React, 🐍 Python, 📊 SQL, C**
+- 🌱 I’m currently learning Data Science and Fullstack development **⚛️ React, 🐍 Python, 📊 SQL, C, NESTJS**, 
 
 - 📫 How to reach me by email: **sdlsh31@gmail.com**
 
